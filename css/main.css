@@ -1,0 +1,446 @@
+@font-face {
+    font-family: 'TAEBAEKfont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+.left {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+}
+body {
+    overflow-x: hidden;
+}
+/* header */
+header {
+    min-width: var(--site-width);
+    height: 130px;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.inner img {
+    width: 200px;
+    display: block;
+    position: absolute;
+    bottom: 1px;
+}
+
+.logo {
+    position: absolute;
+}
+
+.v-line {
+    background: gray;
+    height: 15px;
+    width: 1.5px;
+    left: 70px;
+    bottom: 10px;
+    position: absolute;
+}
+
+
+.sub-menu {
+    width: 80px;
+    height: 24px;
+    left: 1035px;
+    bottom: 70px;
+    position: absolute;
+    font-size: 12px;
+    color: gray;
+
+}
+
+.sub-menu ul.menu {
+    display: flex;
+}
+
+.sub-menu ul.menu li {
+    position: absolute;
+}
+
+.icon img {
+    width: 18px;
+    display: block;
+    flex-direction: row;
+    filter: invert(9%) sepia(36%) saturate(6519%) hue-rotate(216deg) brightness(89%) contrast(96%);
+}
+
+h3 {
+    font-size: 45px;
+    font-family: 'TAEBAEKfont';
+    color: #734F24;
+    font-weight: bold;
+}
+
+.font {
+    font-size: 18px;
+    display: block;
+    top: 1000px;
+    left: 360px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    z-index: 5;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.VARIOUS {
+    font-size: 45px;
+    font-family: 'TAEBAEKfont';
+    color: #072359;
+    font-weight: bold;
+}
+
+.font_imgsbox {
+    font-size: 18px;
+    display: block;
+    top: 50px;
+    left: 360px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    z-index: 5;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.v-line2 {
+    background: #734F24;
+    height: 3.5px;
+    width: 40px;
+    left: 1.5px;
+    bottom: 185px;
+    position: absolute;
+}
+
+.v-line3 {
+    background: #072359;
+    height: 3.5px;
+    width: 40px;
+    left: 1.5px;
+    bottom: 185px;
+    position: absolute;
+}
+
+.SWEET {
+    font-size: 45px;
+    font-family: 'TAEBAEKfont';
+    color: #F2A81D;
+    font-weight: bold;
+}
+
+.v-line4 {
+    background: #F2A81D;
+    height: 3.5px;
+    width: 40px;
+    left: 1.5px;
+    bottom: 185px;
+    position: absolute;
+}
+
+.font_imgsbox2 {
+    font-size: 18px;
+    display: block;
+    top: 50px;
+    left: 50px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    z-index: 5;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.TASTY {
+    font-size: 45px;
+    font-family: 'TAEBAEKfont';
+    color: #Fff;
+    font-weight: bold;
+}
+
+.v-line5 {
+    background: #Fff;
+    height: 3.5px;
+    width: 40px;
+    left: 1.5px;
+    position: absolute;
+    bottom: 140px;
+}
+
+.font_imgsbox3 {
+    font-size: 18px;
+    display: block;
+    top: 50px;
+    left: 50px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    z-index: 5;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+}
+
+p {
+    margin-top: 50px;
+}
+
+.icon1 {
+    position: absolute;
+    left: 85px;
+    margin-bottom: 8px;
+}
+
+.icon2 {
+    position: absolute;
+    left: 110px;
+    margin-bottom: 6px;
+}
+
+.top-bar_menubox>ul ul {
+    display: none;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --site-width: 1200px
+}
+
+.top-bar_menubox>.menu {
+    min-width: var(--site-width);
+}
+
+.top-bar_menubox>ul>li {
+    display: inline-block;
+    left: 180px;
+    bottom: 14px;
+
+}
+
+.top-bar_menubox {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.top-bar_menubox ul>li>a {
+    display: block;
+    font-size: 14px;
+    padding: 10px 40px;
+}
+
+.top-bar_menubox ul {}
+
+.top-bar_menubox>ul>li:hover>ul {
+    display: block;
+}
+
+.top-bar_menubox>ul>li {
+    position: relative;
+}
+
+.top-bar_menubox>ul>li>ul>li {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    background-image: url(../img/bg.JPG);
+    color: black;
+}
+
+.top-bar_menubox>ul>li>ul>li {
+    position: relative;
+    z-index: 1;
+}
+
+/* .swiper-slide */
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 600px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination {}
+
+.storybox {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.box1 {
+    width: 50%;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    background-image: url(../img/story1.JPG);
+}
+
+.box2 {
+    width: 50%;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    background-image: url(../img/story2.JPG);
+}
+
+.imgbox2 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.imgsbox1 {
+    width: 60%;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    background-image: url(../img/main_sec3.jpg);
+}
+
+.imgsbox2 {
+    width: 40%;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    background-image: url(../img/main_sec4.jpg);
+}
+
+.Last_container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+}
+
+.containerbox1 {
+    width: 46%;
+    left: 0;
+    height: 100%;
+    position: absolute;
+}
+
+.linebox1 {
+    border: solid 2px #072359;
+    width: 500px;
+    height: 290px;
+    margin-left: 370px;
+
+}
+
+.linebox2 {
+    border: solid 2px #072359;
+    width: 500px;
+    height: 290px;
+    margin-top: 15px;
+    margin-left: 370px;
+    overflow: hidden;
+}
+
+.linebox2 img {
+    position: relative;
+    z-index: 98;
+    right: 80px;
+}
+
+.containerbox2 {
+    width: 54%;
+    right: 0;
+    height: 100%;
+    position: absolute;
+}
+
+.fontlinebox {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'TAEBAEKfont';
+    color: #072359;
+}
+
+.STORE {
+    margin-top: 20px;
+}
+
+input:-ms-input-placeholder {color: #293856;}
+input::-webkit-input-placeholder {color: #293856;}
+input::-moz-placeholder {color: #293856;}
+
+.Search {
+position: absolute;
+height: 40px;
+width: 400px;
+top: 180px;
+right: 80px;
+border: solid 2px #072359;
+}
+input {
+    font-size: 14px;
+    width: 325px;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+    float: left;
+}
+button {
+    width: 50px;
+    height: 100%;
+    border: 0px;
+    background-color: #fff;
+    outline: none;
+    float: right;
+    color: #072359;
+}
